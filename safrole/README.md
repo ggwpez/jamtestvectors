@@ -63,21 +63,21 @@ For details refer to ASN.1 [schema](./safrole.asn).
   - Tickets are dropped.
   - Fallback method is enacted.
 
-- [pubblish-tickets-with-mark-1](publish-tickets-with-mark-1.json)
+- [publish-tickets-with-mark-1](publish-tickets-with-mark-1.json)
   - Publish some tickets with a half filled accumulator.
   - Accumulator is not filled yet.
   - No ticket is dropped from accumulator.
-- [pubblish-tickets-with-mark-2](publish-tickets-with-mark-2.json)
+- [publish-tickets-with-mark-2](publish-tickets-with-mark-2.json)
   - Publish some more tickets.
   - Accumulator is filled.
   - One old ticket is removed from the accumulator.
-- [pubblish-tickets-with-mark-3](publish-tickets-with-mark-3.json)
+- [publish-tickets-with-mark-3](publish-tickets-with-mark-3.json)
   - Publish some more tickets.
   - Accumulator is filled.
   - Some old ticket are removed to make space for new ones.
-- [pubblish-tickets-with-mark-4](publish-tickets-with-mark-4.json)
+- [publish-tickets-with-mark-4](publish-tickets-with-mark-4.json)
   - Progress into epoch tail.
   - Tickets mark is produced.
-- [pubblish-tickets-with-mark-5](publish-tickets-with-mark-5.json)
+- [publish-tickets-with-mark-5](publish-tickets-with-mark-5.json)
   - Progress into next epoch.
   - Tickets are enacted.
